@@ -1,0 +1,268 @@
+[
+    {
+        "Unnamed: 0":"슬라이드 번호",
+        "Unnamed: 1":"Sub Title",
+        "Unnamed: 2":"슬라이드 내용",
+        "관련코드":null,
+        "Unnamed: 4":"발표 원고"
+    },
+    {
+        "Unnamed: 0":1,
+        "Unnamed: 1":"표지",
+        "Unnamed: 2":"표지\n제목: 기상 데이터를 활용한 쌀 생산량 예측",
+        "관련코드":null,
+        "Unnamed: 4":"안녕하세요. 2조 발표를 시작하겠습니다."
+    },
+    {
+        "Unnamed: 0":2,
+        "Unnamed: 1":"프로젝트 배경​",
+        "Unnamed: 2":"프로젝트 배경\n1) 기상 변화 영향\n2) 생산량 감소 위험\n\n예측모델의 중요성",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":3,
+        "Unnamed: 1":"분석 및 예측 순서도​",
+        "Unnamed: 2":"  분석 및 예측 순서도",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":4,
+        "Unnamed: 1":"Gantt Chart",
+        "Unnamed: 2":"간트차트(일정)",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":5,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"쌀 생산량 데이터(전라남도 통계자료)​\n 기간: 연 단위 데이터 (1995년~2024년)​\n 구조: 연도별 쌀 생산 통계​\n 주요 변수:​\n 생산량(톤)​\n 재배면적(ha)​\n 10a당 생산량(kg) 등​\n\n기상 데이터(기상청 통계자료)​\n지점: 전라남도 주요 6개 지점 (목포, 여수, 완도, 장흥, 해남, 고흥)​\n기간: 1995년부터 최신 데이터까지​\n구조: 날짜별 측정 데이터​\n주요 변수:​\n 평균기온(°C)​\n 월합강수량(mm)​\n 일조율(%)​\n 평균풍속(m\/s)​\n 합계일조시간(hr) 등​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":6,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"쌀 생산량 통계",
+        "관련코드":null,
+        "Unnamed: 4":"전라남도가 전체 쌀 생산량의 총 19.79% 차지하며, 전국에서 가장 높은 수치를 보였습니다.\n이에 쌀 생산량 예측 범위를 전라남도로 한정하였습니다.\n쌀 생산량 통계의 경우 여덟개의 항목으로 이루어져 있으며, 이 중 합계 면적, 합계 생산량, 면적당 생산량을 사용하였습니다.\n기간은 1995년부터 2024년으로 한정하였습니다."
+    },
+    {
+        "Unnamed: 0":7,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"쌀 생산량 통계 결측치 히트맵",
+        "관련코드":null,
+        "Unnamed: 4":"쌀 생산량 데이터에서는 결측치가 존재하지 않았습니다. "
+    },
+    {
+        "Unnamed: 0":8,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"쌀 생산량 통계의 '연도별 벼 재배 면적 변화' 및 \n'연도별 벼 합계 재배면적 변화' 그래프",
+        "관련코드":null,
+        "Unnamed: 4":"전라남도의 벼 재배 면적은 2001년 이후 지속적으로 감소하는 경향을 보였습니다.\n2003년 쌀 생산 조정제, 2011년 논 소득기반 다양화 사업 등의 영향이 있는 것으로 추측됩니다."
+    },
+    {
+        "Unnamed: 0":9,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"연도별 합계 쌀 생산량 변화 및 \n연도별 면적당 쌀 생산량 변화 그래프",
+        "관련코드":null,
+        "Unnamed: 4":"2001년 이후로 쌀 생산량은 지속적으로 감소하는 패턴을 보입니다. \n면적당 쌀 생산량은 연도별 증감 패턴이 합계 생산량 그래프와 유사하나\n전반적인 감소 추세는 뚜렷하지 않았습니다."
+    },
+    {
+        "Unnamed: 0":10,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"기상 데이터 Raw 자료(기상자료개방포털)",
+        "관련코드":null,
+        "Unnamed: 4":"기상 관측 자료는 기상자료개방 포털에서 가져왔습니다.\n총 65종으로 구성된 기상 정보이며, 기간은 1995년부터 2024년까지로, 평년 단위만큼입니다.\n다만 기상 관측이 1995년 이후에 시작된 지역이 많아, 여섯 곳의 관측치를 사용할 수 있었습니다."
+    },
+    {
+        "Unnamed: 0":11,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"4가지 시각화 자료. 1)연도별 평균 기온 분포2)\n2) 월별 평균 기온 분포 3) 연도별 누적강수량4) 월별 강수량 분포",
+        "관련코드":null,
+        "Unnamed: 4":"기본 기상 통계를 가지고 몇 가지 기본적인 시각화를 해보았습니다.\n위는 기온 통계, 아래는 강수량 통계를 사용하였습니다."
+    },
+    {
+        "Unnamed: 0":12,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"6가지 시각화 자료. 1)월별 일조율분포 \n2)월별 평균해면기압분포 3)월별 평균수증기압분포\n4)월별 평균상대습도 분포 5) 월별 평균풍속 분포\n6)월별 합계 일조시간 분포",
+        "관련코드":null,
+        "Unnamed: 4":"일조율, 평균해면기압, 평균수증기압, 평균상대습도, 평균풍속, 일조시간 등 피처를 월별로 시각화 하였습니다.\n각 월과 계절에 따라 나타나는 패턴을 눈으로 확인할 수 있었습니다"
+    },
+    {
+        "Unnamed: 0":13,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"기상데이터 결측치 처리:​\n  선형 보간법(interpolation)을 사용하여 기상 데이터의 결측치를 보완.​\n  선형 보간법은 시간적 연속성을 유지하며 결측치를 채우는 데 적합.​\n변수 선택:​\n  상관관계 분석을 통해 쌀 생산량에 영향을 미치는 주요 변수 선정:​\n  평균기온, 월합강수량, 일조율 등.​\n  제외된 변수: '순간', '풍향', '적설' 등 특정 패턴의 변수는 모델링에 직접적 기여도가 낮아 제외.​\n피처 엔지니어링:​\n  월별 주기적 특성 반영:​\n   월_sin = sin(2π × 월\/12)​\n   월_cos = cos(2π × 월\/12)​\n   월별 주기성을 반영하여 모델이 계절성을 학습할 수 있도록 지원.​\n  4~9월 데이터의 평균값을 사용해 연간 기상 데이터 생성:​\n   주요 성장기 데이터를 집중적으로 분석하기 위함.",
+        "관련코드":null,
+        "Unnamed: 4":"기상데이터의 결측치는 선형 보간법으로 보완하였고,\n변수는 상관관계 분석을 통해 선정하였습니다.\n순간, 풍향, 적설 등의 특정 패턴의 변수는 모델링에서 제외하였습니다.\n그리고 월별 주기적 특성을 반영하기 위해\n월_sin, 월_cos 값을 추가하여 모델이 계절성을 학습할 수 있게 하였습니다."
+    },
+    {
+        "Unnamed: 0":14,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"기상 관측 데이터 결측치 Heatmap",
+        "관련코드":null,
+        "Unnamed: 4":"기상 데이터 결측치 히트맵입니다. 결측값이 많은 데이터는 제외하였으며,\n결측값의 수가 적은 경우 선형 보간하여 빈자리를 채웠습니다."
+    },
+    {
+        "Unnamed: 0":15,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"기상 변수 간 상관관계 히트맵, 10a 생산량vs기상변수 상관관계 히트맵",
+        "관련코드":null,
+        "Unnamed: 4":"기상 변수간 상관관계를 확인하고, 10a 생산량과 기상 변수 상관관계를 확인하였으며\n평균 값, 높은 상관관계를 우선 순위로 두어 총 여덟개의 피처를 선택하였습니다."
+    },
+    {
+        "Unnamed: 0":16,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"8개의 기상 변수와 월_sin, 월_cos으로 구성된 기상 관측 Data Frame",
+        "관련코드":null,
+        "Unnamed: 4":"지점명, 연도와 선정한 여덟개의 속성 값에 월_sin, 월_cos 항목을 추가하여\n월간 연속성과 계절성이 이어지도록 하였습니다."
+    },
+    {
+        "Unnamed: 0":17,
+        "Unnamed: 1":"Data",
+        "Unnamed: 2":"연단위 기상 데이터로 변환 및 면적당 쌀 생산량 병합​\n1) 월 단위 기상 데이터를 쌀 생산량 데이터의 해상도와 맞추기 위해 연단위 기상 데이터로 변환​\n2) 벼농사의 파종기~수확기인 4월~9월의 기상데이터 사용​\n3) 4월부터 9월의 평균값을 넣고 4월부터 9월의 강수량을 별개의 feature로 추가​\n4) 쌀 생산량 데이터로부터 10a 면적당 쌀 생산량 데이터 병합​\ndf_yearly.head() 출력결과",
+        "관련코드":"# 6) 4~9월 기상 변수별 연간 평균 계산 (소수점 2자리)​\ndf_apr_sep = df_monthly[df_monthly['월'].between(4, 9)]​\nagg_funcs = {var: lambda x: round(x.mean(), 2) for var in weather_vars}​\ndf_yearly = (​\n    df_apr_sep​\n    .groupby(['지점명', '년'])​\n    .agg(agg_funcs)​\n    .reset_index())​\n# 7) 4~9월 월별 강수량을 feature로 추가​\nrain_pivot = (​\n    df_apr_sep​\n    .pivot_table(index=['지점명', '년'],​\n                 columns='월',​\n                 values='월합강수량(00~24h만)(mm)')​\n    .rename(columns=lambda m: f'{m}월_강수량')​\n    .reset_index())​\n# 강수량 데이터 병합​\ndf_yearly = df_yearly.merge(rain_pivot, on=['지점명', '년'])​\n# 1) df_rice에서 연도별 10a당 생산량만 추출해서 '년' 컬럼으로 이름 변경​\ndf_rice_year = df_rice[['시점', '10a당 생산량(kg)']].copy()​\ndf_rice_year.rename(columns={'시점': '년'}, inplace=True)​\n# 만약 '년'이 문자열이라면 정수형으로 변환​\ndf_rice_year['년'] = df_rice_year['년'].astype(int)​\n# 2) df_yearly에 연도 기준으로 병합​\ndf_yearly = df_yearly.merge(​\n    df_rice_year,​\n    on='년',​\n    how='left'   # 연도별로 일치하는 쌀 생산량을 가져오고, 없으면 NaN)​\n# 결과 확인​\nprint(df_yearly.head())​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":18,
+        "Unnamed: 1":"Modeling",
+        "Unnamed: 2":"전체 과정\n1. 기상예측 및 재배면적 예측\n1.1. Seq2Seq LSTM : 기상 예측​→ 시간에 따른 누적 영향 및 ​복잡한 관계 고려 가능​\n1.1.1. XGBoost : 면적당 생산량 예측​ → 기상 데이터로 면적당 ​ 쌀 생산량 학습 및 예측\n1.2 ETS : 재배 면적 예측​ → 매년 감소하는 추세를 보임​\n2. 예측한 재배면적*예측한 면적당 생산량\n3. 최종 쌀 생산량 예측\n",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":19,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"지역별 기상 Feature들의 경우정상성과 비정상성이 섞여있음.​\n기상이라는 특성상 계절성 존재​\n시계열 데이터를 정상화하여 사용하기보단 비정상성 데이터도 소화할 수 있는 seq2seq LSTM 모델 사용​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":20,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"LSTM 작동 기본 모식도\n1) Encoder\n2) Context\n3) Decoder",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":21,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"1) 모든 출력 시점에 대해​ 다변량 특성을 예측하기 위해​ TimeDistributed(Dense) 레이어 추가​\n2) 하이퍼파라미터 탐색: keras-tuner Random​\n LSTM 유닛 수: [32, 64, 128]​\n 드롭아웃 비율: [0.1, 0.2, ..., 0.5] (0.1 간격)​\n 학습률(Learning Rate): [1e-2, 1e-3, 1e-4]​\n 배치 크기: [8, 16, 32]​\n 평가지표: MSE(Mean Squared Error)​\n3) 학습 데이터와 검증 데이터를​ 80:20 비율로 나누어 모델을 학습​",
+        "관련코드":"def build_model(hp):​\n    n_feat = len(features)​\n    units = hp.Choice('units', [32, 64, 128])​\n    drop = hp.Float('dropout', 0.1, 0.5, step=0.1)​\n    lr = hp.Choice('lr', [1e-2, 1e-3, 1e-4])​\n    batch_size = hp.Choice('batch_size', [8, 16, 32])​\n​\n    enc_in = Input(shape=(lookback, n_feat))​\n    x, s_h, s_c = LSTM(units, return_state=True, dropout=drop)    ​\n\n    (enc_in)​\n    dec_in = Input(shape=(horizon, n_feat))​\n    x = LSTM(units, return_sequences=True, dropout=drop)(​\n        dec_in, initial_state=[s_h, s_c]​\n    )​\n    out = TimeDistributed(Dense(n_feat))(x)​\n​\n    model = Model([enc_in, dec_in], out)​\n    model.compile(optimizer=Adam(lr), loss='mse')​\n    return model​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":22,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"1. 기상 데이터는 데이터 특성상 이상치가 존재할 가능성 多​\n1) 이상치에 둔감한 RobustScaler를 이용하여 데이터 정규화​\n2. 지점별로 기상패턴이 다를 수 있음​\n1) 지점별로 각각의 개별 모델 + 개별 Scaler 적용​",
+        "관련코드":"# 결과 저장용 dict 초기화​\nmodels            = {}​\nfeature_histories = {}​\nscalers           = {}​\n\n​\n\nfor st in stations:​\n​\n    # (1) 지점별 데이터 준비​\n    df_st = df_monthly[df_monthly['지점명'] == st].sort_values(['년', ​\n\n            '월'])​\n    df_st.index = pd.to_datetime(df_st['년'].astype(str) + '-' + \\​\n\n                  df_st['월'].astype(str).str.zfill(2) + '-01'​\n    )​\n    data = df_st[features].values​\n​\n    # (2) 지점별 RobustScaler fit​\n    scaler_st = RobustScaler().fit(data)​\n    scalers[st] = scaler_st​\n    data_scaled = scaler_st.transform(data)​\n​\n    # ... (이후 모델 학습 및 예측 코드)​\n    ​\n    # (8) 결과 저장​\n    models[st] = model​\n    feature_histories[st] = tracker​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":23,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"1) 선택한 하이퍼 파라미터​\nLSTM 유닛 수: 128​\n드롭아웃 비율: 0.1​\n학습률(Learning Rate): 0.01​\n배치 크기: 16​\n에포크 수: 150​\n\n2) 지점별 모델 학습 결과​\n고흥: Validation R² = 0.992​\n목포: Validation R² = 0.993​\n여수: Validation R² = 0.989​\n완도: Validation R² = 0.990​\n장흥: Validation R² = 0.991​\n해남: Validation R² = 0.990​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":24,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"지점별 24개월 예측​\n\n​\n\n데이터 준비​\n\n각 지점별 데이터 필터링 및 정렬​\n\n시계열 형태 데이터로 변환하여 모델에 입력​\n\n학습 시 사용한 스케일러(Robust scaler)를 적용하여 데이터 정규화​\n\n​\n\n최종 입력 윈도우 생성​\n\n예측을 위한 마지막 24개월 데이터를 모델에 입력으로 제공​\n\n디코더 입력으로는 초기화된 0값을 사용하여 예측 시작​\n\n​\n\n모델 예측 및 역변환​\n\n모델이 생성한 예측값을 원래 범위로 되돌리기 위해 스케일링을 역변환​\n\n​\n\n예측 결과 저장​\n\n예측 값을 데이터프레임으로 저장하고, 각 지점의 결과를 병합​\n\n​",
+        "관련코드":"pred_dfs = []​\n​\nfor st in stations:​\n    # --- (1) 데이터 준비​\n    df_st = df_monthly[df_monthly['지점명']==st].sort_values(['년', '월'])​\n    df_st.index = pd.to_datetime(​\n        df_st['년'].astype(str) + '-' + df_st['월'].astype(str).str.zfill(2) + '-01'​\n    )​\n    data = df_st[features].values​\n​\n    # --- (2) station-specific scaler 사용​\n    scaler_st = scalers[st]​\n    data_scaled = scaler_st.transform(data)​\n​\n    # --- (3) 마지막 윈도우 입력​\n    last_X = data_scaled[-lookback:].reshape(1, lookback, len(features))​\n    dec_input = np.zeros((1, horizon, len(features)))​\n​\n    # --- (4) 예측 및 역변환​\n    model = models[st]​\n    pred_s = model.predict([last_X, dec_input], verbose=0)​\n    pred_flat = scaler_st.inverse_transform(pred_s.reshape(-1, len(features)))​\n    pred = pred_flat.reshape(horizon, len(features))​\n    pred = np.round(pred, 2)​\n​\n    # --- (5) DataFrame 생성​\n    future_idx = pd.date_range(df_st.index[-1] + pd.offsets.MonthBegin(),​\n                               periods=horizon, freq='MS')​\n    df_pred = pd.DataFrame(pred, index=future_idx, columns=features)​\n    df_pred['지점명'] = st​\n    pred_dfs.append(df_pred)​\n​\ndf_monthly_predict = pd.concat(pred_dfs).reset_index().rename(columns={'index': '일시'})​\nprint(df_monthly_predict.head())​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":25,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"지점별 예측 결과 시각화​\n\n​\n\n과거 5년(60개월)과 미래 24개월 비교​\n\n대체적으로 추세를 잘 반영​",
+        "관련코드":"fig, axes = plt.subplots(4, 2, figsize=(14, 12), sharex=False)​\naxes = axes.flatten()​\n​\nfor ax, feat in zip(axes, features):​\n    # 실제: 최근 5년​\n    ax.plot(df_hist_5y.index, df_hist_5y[feat], '-', ​\n\n            label='Actual (Last 5y)')​\n    # 예측: 향후 24개월​\n    ax.plot(df_pred.index, df_pred[feat], '--', ​\n\n            marker='o', label='Forecast (24m)')​\n​\n    ax.set_title(feat)​\n    ax.legend()​\n    ax.grid(True)​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":26,
+        "Unnamed: 1":"Modeling - Seq2Seq LSTM​",
+        "Unnamed: 2":"4~9월 필터링 및 연간 데이터 생성​",
+        "관련코드":"# 1) 일시 → datetime, '년'\/'월' 컬럼 추가​\ndf_monthly_predict['일시'] = pd.to_datetime(df_monthly_predict['일시'])​\ndf_monthly_predict['년'] = df_monthly_predict['일시'].dt.year​\ndf_monthly_predict['월'] = df_monthly_predict['일시'].dt.month​\n​\n# 2) 4~9월 필터링​\ndf_apr_sep_pred = df_monthly_predict[df_monthly_predict['월'].between(4, 9)].copy()​\n​\n# 3) 기상 변수별 연간 평균 계산​\nagg_funcs = {var: lambda x: round(x.mean(), 2) for var in weather_vars}​\ndf_yearly_pred = (​\n    df_apr_sep_pred​\n      .groupby(['지점명', '년'])​\n      .agg(agg_funcs)​\n      .reset_index()​\n)​\n​\n# 4) 월별 강수량 데이터 추가​\nrain_pivot = (​\n    df_apr_sep_pred​\n      .pivot_table(​\n          index=['지점명', '년'],​\n          columns='월',​\n          values='월합강수량(00~24h만)(mm)'​\n      )​\n      .rename(columns=lambda m: f'{m}월_강수량')​\n      .reset_index()​\n)​\n​\ndf_yearly_pred = df_yearly_pred.merge(rain_pivot, on=['지점명', '년'])​\n​\n# 5) '10a당 생산량(kg)' 컬럼 추가​\ndf_yearly_pred['예측_10a당생산량(kg)'] = pd.NA​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":27,
+        "Unnamed: 1":"Modeling - ETS",
+        "Unnamed: 2":"재배 면적의 경우 Trend를 가진​ 시계열 데이터임. ​\nADF & KPSS 검정 결과 ​비정상을 띄는 부분이 있음.​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":28,
+        "Unnamed: 1":"Modeling - ETS",
+        "Unnamed: 2":"1)비정상 시계열을 처리할 수 있는​ ETS모델을 사용하여 예측​\n\n2) 하이퍼파라미터 탐색 ​\n\n  Trend 데이터 추세: additive, multiplicative​\n\n  Daped Trend 추세 감쇠 여부 : True, False ​\n\n Seasonality: 연 단위 데이터이므로 제외​",
+        "관련코드":"for trend in ['add', 'mul']:​\n    for damped in [False, True]:​\n        try:​\n            model = ExponentialSmoothing(​\n                ts_area,​\n                trend=trend,​\n                damped_trend=damped,​\n                seasonal=None,​\n                initialization_method='estimated'​\n            ).fit(optimized=True)​\n​\n            ​\n            rmse = np.sqrt(mean_squared_error(ts_area,             ​\n\n                   model.fittedvalues))​\n\nets_model = ExponentialSmoothing(​\n            ts_area,​\n            trend=best_trend,​\n            damped_trend=best_damped,​\n            seasonal=None,​\n            initialization_method='estimated'​\n            ).fit(optimized=True)​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":29,
+        "Unnamed: 1":"Modeling - ETS",
+        "Unnamed: 2":"최적 하이퍼 파라미터로​\n향후 2년 재배 면적 예측​​\n\nTrend: 'additive'​\n\nDamped Trend: True​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":30,
+        "Unnamed: 1":"Modeling - XGBOOST",
+        "Unnamed: 2":"1.지점별로 면적당 생산량에 기여하는 가중치가 다를 수 있음​\n1)기상 변수, 지점명을 조합하여 고유 컬럼 이름을 생성 (예: 평균기온(°C)_고흥)​\n2)학습을 통하여 지점별 가중치 업데이트​\n\nX : 연도별 기상 데이터가 포함된 학습 데이터​\ny : 연도별 10a당 쌀 생산량​",
+        "관련코드":"​\nstations = ['고흥','목포','완도','장흥','여수','해남']​\nclimate_vars = ['평균기온(°C)', '월합강수량(00~24h만)(mm)', '일조율(%)',​\n                '평균해면기압(hPa)', '평균수증기압(hPa)',​\n                '평균상대습도(%)', '평균풍속(m\/s)', '합계 일조시간(hr)']​\n​\ndf_yearly_wide = (​\n    df_yearly​\n    .pivot(index='년', columns='지점명', values=climate_vars)​\n)​\ndf_yearly_wide.columns = [f\"{var}_{st}\" for var,st in df_yearly_wide.columns]​\nX = df_yearly_wide.sort_index()​\ny = (​\n    df_yearly​\n    .drop_duplicates('년')​\n    .set_index('년')['10a당 생산량(kg)']​\n    .loc[X.index]​\n)​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":31,
+        "Unnamed: 1":"Modeling - XGBOOST",
+        "Unnamed: 2":"주요 하이퍼 파라미터​ -GridSearch를 이용하여 파라미터 조합 탐색​\n트리 개수(n_estimators) : 300​\n최대 깊이(max_depth) : 5​\n학습률(learning_rate) : 0.01​\n​서브 샘플링 비율(subsample) : 0.7​\n가장 낮은 교차검증 평균 RMSE : 27.98​",
+        "관련코드":"tscv = TimeSeriesSplit(n_splits=5)​\nparam_grid = {​\n    'n_estimators': [100, 200, 300],​\n    'max_depth':    [3, 5, 7],​\n    'learning_rate':[0.01, 0.1, 0.2],​\n    'subsample':    [0.7, 1.0]​\n}​\nxgb = XGBRegressor(objective='reg:squarederror', random_state=42)​\ngrid = GridSearchCV(​\n    xgb, param_grid,​\n    cv=tscv,​\n    scoring='neg_root_mean_squared_error',​\n    n_jobs=-1,​\n    verbose=1​\n)​\ngrid.fit(X, y)​\n​\nprint(\"Best params:\", grid.best_params_)​\nprint(\"CV RMSE:   \", -grid.best_score_)​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":32,
+        "Unnamed: 1":"Modeling - XGBOOST",
+        "Unnamed: 2":"학습 결과:​\n\nTrain RMSE: 7.603​\n\nR² (Coefficient of Determination): 0.931",
+        "관련코드":"best = grid.best_estimator_​\n\n​\n\nyield_fitted = pd.Series(​\n\n    best.predict(X),​\n\n    index=X.index,​\n\n    name='yield_kg10a'​\n\n)​\n\n​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":33,
+        "Unnamed: 1":"Modeling - XGBOOST",
+        "Unnamed: 2":"최종 모델 예측값 생성​\n\n예측한 월별 기후 데이터를 연단위 데이터로 변환 (df_monthly_predict -> df_yearly_pred)​\n\n​\n\n변환한 데이터를 XGBOOST 학습 시 사용한 데이터 포맷에 맞춰 변환 (df_yearly_pred -> df_yearly_wide_pred)​\n\n​\n\nXGBOOST 모델을 이용하여 나온 예측값을 yeild_fc_future로 저장​\n\n​\n\n학습 시 저장한 결과값 yeild_fitted와 결합하여 yeild_all로 저장​\n\n​",
+        "관련코드":"# 1) long → wide 포맷으로 변환 (학습 때와 동일)​\n\ndf_yearly_wide_pred = (​\n\n    df_yearly_pred​\n\n      .pivot(index='년', columns='지점명', values=climate_vars)​\n\n)​\n\ndf_yearly_wide_pred.columns = [f\"{var}_{st}\" for var, st in df_yearly_wide_pred.columns]​\n\nX_future = df_yearly_wide_pred.sort_index()​\n\n​\n\n# 2) out-of-sample 예측 수행​\n\npreds_future = best.predict(X_future)​\n\n​\n\n# 3) yield_fc_future 시리즈 생성​\n\nyield_fc_future = pd.Series(​\n\n    preds_future,​\n\n    index=X_future.index.astype(int),​\n\n    name='yield_kg10a'​\n\n)​\n\n​\n\n…​\n\n​\n\nyield_all       = pd.concat([yield_fitted, yield_fc_future])​\n\nyield_tonha_all = yield_all * 10 \/ 1000   # kg\/10a → ton\/ha​\n\nforecast_ton_all = yield_tonha_all.mul(​\n\n    area_all.reindex(yield_tonha_all.index)​\n\n).rename('Forecast_total_ton')​\n\n​\n​\n\n​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":34,
+        "Unnamed: 1":"Conclusion​",
+        "Unnamed: 2":"예측된 총 생산량\n예측된 재배 면적(area_all)과 ​\n예측된 면적당 생산량(yield_all)을 곱하여 ​\n연도별 총 생산량을 계산.​\n계산된 결과는 forecast_ton_all 변수에 저장.​\n시각화 자료: 실제 쌀 생산량(2024까지)과 예측 쌀 생산량(2025, 2026)",
+        "관련코드":"전체 Forecast 톤 수 계산​\nyield_all = pd.concat([yield_fitted, yield_fc_future])​\n\nyield_tonha_all = yield_all * 10 \/ 1000   ​\n\n​\n\nforecast_ton_all = yield_tonha_all.mul(​\n    area_all.reindex(yield_tonha_all.index)​\n).rename('Forecast_total_ton')​",
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":35,
+        "Unnamed: 1":"Conclusion​",
+        "Unnamed: 2":"Summary\n데이터 준비: 과거 기상 변수와 쌀 재배 면적 데이터를 수집 및 전처리​\n모델링​\nLSTM 기반 Seq2Seq 모델: 지점별 월별 기상 데이터를 활용하여 향후 24개월 동안의 기상 데이터를 예측​\nETS 모델: 과거 재배 면적 데이터를 기반으로 향후 2년 동안의 재배 면적을 예측​\nXGBoost 모델: 연간 기상 데이터를 기반으로 면적당 쌀 생산량(10a당 생산량)을 예측​\n\n결과 ​\n예측된 재배 면적과 면적당 생산량을 통해 총 생산량을 계산​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":36,
+        "Unnamed: 1":"Conclusion​",
+        "Unnamed: 2":"Discussion\n주요 성과​\n다중 모델 통합: LSTM, ETS, XGBoost 모델을 유기적으로 결합하여 복합적인 예측 문제를 해결.​\n데이터 활용: 과거 기상 및 재배 데이터에서 유의미한 패턴을 추출하고, 이를 통해 미래를 예측.​\n\n​주의할 점​\n모델 간 상관성: seq2seq LSTM모델의 결과값이 XGBoost 모델에 사용되므로, 첫 번째 모델의 정확도가 전체 결과에 큰 영향을 미침.​\n기상 데이터의 불확실성: 기상 데이터를 기반으로 한 예측은 외부 환경 변화(예: 이상 기상)에 민감.​\n\n​배운 점​\n시계열 데이터의 복잡성: 시계열 데이터의 정상성, 계절성, 추세를 고려한 모델링의 중요성.​\n모델 선택의 중요성: 문제의 특성(단변량\/다변량, 비정상성 등)에 따라 적합한 모델을 선택해야 함.​\n\n향후 연구 방향​\n더 많은 변수 추가: 기상 이외의 경제적 요인(예: 쌀 가격, 소비량)을 포함하여 예측 모델의 정확도를 높일 수 있음.​\n지점 간 상호작용 모델링: 지점 간 상관성을 반영한 모델링(예: 공간적 관계)을 시도할 수 있음.​",
+        "관련코드":null,
+        "Unnamed: 4":null
+    },
+    {
+        "Unnamed: 0":37,
+        "Unnamed: 1":"마지막 표지",
+        "Unnamed: 2":"감사합니다",
+        "관련코드":null,
+        "Unnamed: 4":"여기까지 들어주셔서 감사합니다. 질문은 받지 않겠습니다."
+    }
+]
